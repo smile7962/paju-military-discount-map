@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>파주시 군 장병 할인업소 지도</title>
+<meta name="description" content="파주시 군 장병·사회복무요원 할인업소 189개소를 권역·업종별로 찾아보는 지도 서비스">
+<meta name="theme-color" content="#2f5233">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎖️</text></svg>">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="vendor/markercluster/MarkerCluster.css">
+<link rel="stylesheet" href="vendor/markercluster/MarkerCluster.Default.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="app-header">
+  <h1>🎖️ 파주 군장병 할인업소</h1>
+  <button id="btn-search" class="icon-btn" aria-label="업소명 검색">🔍</button>
+</header>
+
+<div id="search-bar" class="search-bar" hidden>
+  <input id="search-input" type="search" placeholder="업소명 검색" autocomplete="off">
+  <button id="search-close" class="icon-btn" aria-label="검색 닫기">✕</button>
+</div>
+
+<nav class="filters">
+  <div id="region-chips" class="chip-row" aria-label="권역 선택"></div>
+  <div id="cat-chips" class="chip-row" aria-label="업종 선택"></div>
+</nav>
+
+<main class="content">
+  <aside id="panel" class="panel">
+    <div id="panel-handle" class="panel-handle" role="button" aria-label="목록 열기/닫기">
+      <span class="grabber"></span>
+      <span id="panel-title">업소 목록</span>
+    </div>
+    <div id="geo-progress" class="geo-progress" hidden>
+      <div id="geo-progress-bar"></div>
+      <span id="geo-progress-text">업소 위치 확인 중…</span>
+    </div>
+    <div id="store-list" class="store-list"></div>
+  </aside>
+
+  <div id="map" role="application" aria-label="할인업소 지도"></div>
+
+  <button id="btn-locate" class="fab" aria-label="현재 위치로 이동">📍</button>
+</main>
+
+<div id="detail" class="detail" hidden>
+  <button id="detail-close" class="icon-btn detail-close" aria-label="상세 닫기">✕</button>
+  <div id="detail-body"></div>
+</div>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="vendor/markercluster/leaflet.markercluster.js"></script>
+<script src="js/config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/map.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
