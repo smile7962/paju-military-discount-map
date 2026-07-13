@@ -292,6 +292,7 @@ body.panel-open .panel { height: 62%; }
 }
 
 .detail-actions { display: flex; gap: 8px; }
+.detail-actions + .detail-actions { margin-top: 8px; }
 
 .btn {
   flex: 1;
@@ -307,6 +308,9 @@ body.panel-open .panel { height: 62%; }
   font-weight: 600;
 }
 
+.btn-kakao { background: #fee500; color: #3c1e1e; }
+.btn-naver { background: #03c75a; color: #fff; }
+
 /* ---- 지도 마커 ---- */
 
 .store-marker span {
@@ -315,7 +319,7 @@ body.panel-open .panel { height: 62%; }
   justify-content: center;
   width: 32px;
   height: 32px;
-  border-radius: 50% 50% 50% 4px;
+  border-radius: 50% 50% 4px 50%;
   border: 2px solid #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
   font-size: 15px;
