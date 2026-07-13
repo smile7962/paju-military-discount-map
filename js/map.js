@@ -40,9 +40,10 @@ function makeIcon(store) {
   const cat = CATEGORIES[store.cats[0]] || CATEGORIES.etc;
   return L.divIcon({
     className: "store-marker",
-    html: `<span style="background:${cat.color}">${cat.emoji}</span>`,
-    iconSize: [32, 32],
-    iconAnchor: [16, 16],
+    html: `<span style="--c:${cat.color}"><i>${cat.emoji}</i></span>`,
+    iconSize: [32, 42],
+    iconAnchor: [16, 40],
+    popupAnchor: [0, -38],
   });
 }
 

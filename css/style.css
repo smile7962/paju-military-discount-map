@@ -292,6 +292,7 @@ body.panel-open .panel { height: 62%; }
 }
 
 .detail-actions { display: flex; gap: 8px; }
+.detail-actions + .detail-actions { margin-top: 8px; }
 
 .btn {
   flex: 1;
@@ -307,17 +308,33 @@ body.panel-open .panel { height: 62%; }
   font-weight: 600;
 }
 
+.btn-kakao { background: #fee500; color: #3c1e1e; }
+.btn-naver { background: #03c75a; color: #fff; }
+
 /* ---- 지도 마커 ---- */
 
 .store-marker span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  background: var(--c);
+  border: 2px solid #fff;
+  /* 아래를 향하는 핀: 왼쪽 아래 꼭지점을 45도 회전해 정하단을 가리킴 */
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+.store-marker span i {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 50% 50% 50% 4px;
-  border: 2px solid #fff;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+  font-style: normal;
   font-size: 15px;
 }
 
