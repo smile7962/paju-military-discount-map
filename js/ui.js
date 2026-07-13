@@ -52,6 +52,12 @@ function renderList(stores, state) {
   }).join("");
 }
 
+// 할인현황과 세부내역이 (공백 무시) 같으면 중복으로 간주
+function sameDiscount(s) {
+  const norm = (v) => String(v || "").replace(/\s/g, "");
+  return !s.detail || norm(s.detail) === norm(s.discount);
+}
+
 function renderDetail(s) {
   const cat = CATEGORIES[s.cats[0]] || CATEGORIES.etc;
   const name = encodeURIComponent(s.name);
@@ -66,7 +72,7 @@ function renderDetail(s) {
   el("detail-body").innerHTML = `
     <h2><span class="store-cat" style="background:${cat.color}">${cat.emoji}</span> ${escapeHtml(s.name)}</h2>
     <p class="detail-meta">${escapeHtml(s.region)} · ${escapeHtml(s.type)}${s.socialWorker ? " · 🪖 사회복무요원 적용" : ""}</p>
-    <p class="detail-discount"><strong>${escapeHtml(s.discount)}</strong><br>${escapeHtml(s.detail)}</p>
+    <p class="detail-discount"><strong>${escapeHtml(s.discount)}</strong>${sameDiscount(s) ? "" : `<br>${escapeHtml(s.detail)}`}</p>
     <p class="detail-addr">📍 ${escapeHtml(s.addr)}</p>
     ${s.tel ? `<div class="detail-actions">
       <a class="btn" href="tel:${s.tel.replace(/[^0-9]/g, "")}">📞 ${escapeHtml(s.tel)}</a>
