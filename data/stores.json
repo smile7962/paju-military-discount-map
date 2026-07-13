@@ -1,0 +1,3031 @@
+{
+ "source": "★2026년도 군 장병 할인업소 현황(2026.3.1.기준).xlsx",
+ "count": 189,
+ "stores": [
+  {
+   "id": 1,
+   "region": "광탄",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "게이트호텔",
+   "tel": "031-947-2888",
+   "addr": "경기도 파주시 광탄면 보광로 505",
+   "discount": "10% 할인",
+   "detail": "객실요금의 10%할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 2,
+   "region": "광탄",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "두둑한한판",
+   "tel": "0507-1330-7646",
+   "addr": "경기도 파주시 보광로 646, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 3,
+   "region": "광탄",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "레드브릿지",
+   "tel": "070-8880-5555",
+   "addr": "경기도 파주시 광탄면 기산로 329",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 4,
+   "region": "광탄",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "신나는 등갈비 엔 닭발",
+   "tel": "031-943-3545",
+   "addr": "경기도 파주시 광탄면 혜음로 1117-1, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 5,
+   "region": "광탄",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "엘리스오븐",
+   "tel": "031-942-1432",
+   "addr": "경기도 파주시 광탄면 기산로 195, 1,2층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 6,
+   "region": "광탄",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "장단콩두부전문점",
+   "tel": "031-941-1989",
+   "addr": "경기도 파주시 광탄면 큰여울길 35, 1층 일부",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 7,
+   "region": "광탄",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "카페바스",
+   "tel": "0507-1329-3073",
+   "addr": "경기도 파주시 광탄면 왕수물길 4, 광천목욕탕 1층일부",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 8,
+   "region": "광탄",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "풍미진해장국 광탄직영점",
+   "tel": "031-945-1211",
+   "addr": "경기도 파주시 광탄면 부흥로 30, B동1층전체",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수 대용량 1병, 공기밥 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 9,
+   "region": "광탄",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "기로네",
+   "tel": "",
+   "addr": "경기도 파주시 광탄면 큰여울길 8-1, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 10,
+   "region": "교하",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "민바리매운탕",
+   "tel": "031-949-8266",
+   "addr": "경기도 파주시 쌀뚜기길 44-42",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료제공",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 11,
+   "region": "교하",
+   "cats": [
+    "food",
+    "cafe"
+   ],
+   "type": "일반음식점,휴게음식점",
+   "name": "아레볼",
+   "tel": "031-949-5678",
+   "addr": "경기도 파주시 소라지로 309-12",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 12,
+   "region": "교하",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "여명양평해장국",
+   "tel": "031-946-8001",
+   "addr": "경기도 파주시 지목로 71",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 13,
+   "region": "교하",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "해울한정식",
+   "tel": "031-949-9939",
+   "addr": "경기도 파주시 지목로 65, C동 07호",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 14,
+   "region": "금촌",
+   "cats": [
+    "bath"
+   ],
+   "type": "목욕장업",
+   "name": "골드스파사우나",
+   "tel": "031-957-8445",
+   "addr": "경기도 파주시 한마음1길 38, 지하1층",
+   "discount": "10%이상 할인",
+   "detail": "목욕요금 10,000원→8,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 15,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "덕성원",
+   "tel": "031-941-2226",
+   "addr": "경기도 파주시 명동길 43",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 16,
+   "region": "금촌",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "성심모텔",
+   "tel": "031-949-8644",
+   "addr": "경기도 파주시 금촌동 아동로 4-3",
+   "discount": "10% 할인",
+   "detail": "숙박요금 40,000원→36,000원",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 17,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "소담촌",
+   "tel": "031-944-8698",
+   "addr": "경기도 파주시 후곡로 19, 3층 전부",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료제공",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 18,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "소스와 꼬꼬",
+   "tel": "031-948-5527",
+   "addr": "경기도 파주시 한마음1길 40",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 19,
+   "region": "금촌",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "금헤어",
+   "tel": "031-944-5695",
+   "addr": "경기도 파주시 금정4길 16",
+   "discount": "10% 할인",
+   "detail": "컷트 10,000원→9,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 20,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "여명 양평해장국",
+   "tel": "031-945-3306",
+   "addr": "경기도 파주시 번영로 36",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 21,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "왔다삼겹살",
+   "tel": "031-944-9254",
+   "addr": "경기도 파주시 원앙길 26",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 22,
+   "region": "금촌",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "이브 헤어샵",
+   "tel": "031-941-1235",
+   "addr": "경기도 파주시 금정14길 35",
+   "discount": "10%이상 할인",
+   "detail": "컷트 15,000원→13,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 23,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "일품양평해장국 파주검산점",
+   "tel": "031-944-4866",
+   "addr": "경기도 파주시 평화로 330",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 24,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "중국성",
+   "tel": "031-946-7983",
+   "addr": "경기도 파주시 아동로 13",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 25,
+   "region": "금촌",
+   "cats": [
+    "bath"
+   ],
+   "type": "목욕장업",
+   "name": "지앤지스파",
+   "tel": "031-946-0063",
+   "addr": "경기도 파주시 금릉동 211-5",
+   "discount": "10% 할인",
+   "detail": "목욕요금 10,000원→9,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 26,
+   "region": "금촌",
+   "cats": [
+    "cafe"
+   ],
+   "type": "휴게음식점",
+   "name": "커피에반하다(금촌역점)",
+   "tel": "031-945-4145",
+   "addr": "경기도 파주시 새꽃로 200,1층(금촌동)",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 27,
+   "region": "금촌",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "테마모텔",
+   "tel": "031-944-5586",
+   "addr": "경기도 파주시 중앙로 272",
+   "discount": "10%이상 서비스제공",
+   "detail": "20시이후 입실이나, 15시부터 빠른입실 서비스 (숙박 6만원, 서비스 2만원정도금액)",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 28,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "계근상 파주금촌점",
+   "tel": "031-944-9920",
+   "addr": "경기도 파주시 한마음1길 9, 광성프라자 105호(금촌동)",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 29,
+   "region": "금촌",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "헤어그린",
+   "tel": "031-943-6825",
+   "addr": "경기도 파주시 새꽃로 208",
+   "discount": "10%이상 할인",
+   "detail": "컷트 12,000원→10,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 30,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "이승옥냉돈돼지",
+   "tel": "010-9082-9852",
+   "addr": "경기도 파주시 평화로 8 , 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 31,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "미몽 파주금촌점",
+   "tel": "031-937-8212",
+   "addr": "경기도 파주시 동산8길 39, 1층",
+   "discount": "10% 할인",
+   "detail": "결제금액의 10% 할인 (주류, 음료 제외)",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 32,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "미술관속 족발집",
+   "tel": "031-949-2345",
+   "addr": "경기도 파주시 한마음 1길 43, 2층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 33,
+   "region": "금촌",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "이정호 모델헤어",
+   "tel": "031-948-9439",
+   "addr": "경기도 파주시 중앙로 318-1 (금촌동)",
+   "discount": "10%이상 할인",
+   "detail": "컷트 17,000원→15,000원",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 34,
+   "region": "금촌",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "파주새말육심",
+   "tel": "031-946-8895",
+   "addr": "경기도 파주시 정담길 41(영창빌딩), 1층",
+   "discount": "10% 할인",
+   "detail": "현역 10%, 직업군인 5% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 35,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "밥꼬 문산점",
+   "tel": "031-953-2088",
+   "addr": "경기도 파주시 문산읍 문향로 67번길 15, 1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료 또는 주류서비스",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 36,
+   "region": "문산",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "에이바헤어 문산당동점",
+   "tel": "031-954-0503",
+   "addr": "경기도 파주시 문산읍 방촌로 1719-62",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 37,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "한반도카페 플라츠(platz)907",
+   "tel": "031-937-8218",
+   "addr": "경기도 파주시 문산읍 마정로 174, 1층일부",
+   "discount": "10% 할인",
+   "detail": "커피종류 10%, 아메리카노 7~8%",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 38,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "육해공떠오르는집",
+   "tel": "031-954-9200",
+   "addr": "경기도 파주시 문산읍 문향로 84번길 7-1",
+   "discount": "10% 할인",
+   "detail": "테이블당 10%할인, 음료 서비스",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 39,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "갈비도둑",
+   "tel": "031-952-9296",
+   "addr": "경기도 파주시 문산읍 문향로39번길 8",
+   "discount": "10%이상 서비스제공",
+   "detail": "고기주문시 음료, 공기밥, 주류 서비스",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 40,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "아서원",
+   "tel": "031-952-6635",
+   "addr": "경기도 파주시 문산읍 문향로58",
+   "discount": "10%이상 서비스제공",
+   "detail": "공기밥, 음료 서비스",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 41,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "(주)반구정나루터집",
+   "tel": "031-952-3472",
+   "addr": "경기도 파주시 문산읍 반구정로85번길 13",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 42,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "59쌀피자",
+   "tel": "031-952-5909",
+   "addr": "경기도 파주시 문산읍 문향로 67번길 8, 1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수500ml 서비스",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 43,
+   "region": "문산",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "M 모텔",
+   "tel": "031-953-3263",
+   "addr": "경기도 파주시 문산읍 문향로 87-1",
+   "discount": "10% 할인",
+   "detail": "숙박요금 30,000원→27,000원 할인(현금결제시)",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 44,
+   "region": "문산",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "나포리미용실",
+   "tel": "031-952-3868",
+   "addr": "경기도 파주시 문산읍 문향로56번길 19",
+   "discount": "10%이상 할인",
+   "detail": "컷트 17,000원→14,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 45,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "누구나홀딱반한닭 문산당동점",
+   "tel": "031-942-7617",
+   "addr": "경기도 파주시 문산읍 당동2로 11-5",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 46,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "두근두근",
+   "tel": "031-953-3396",
+   "addr": "경기도 파주시 문산읍 당동2로 11-1",
+   "discount": "10%이상 서비스제공",
+   "detail": "1인당 음료수 1병",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 47,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "또봉이통닭(문산점)",
+   "tel": "031-948-5511",
+   "addr": "경기도 파주시 문산읍 봉미로 19",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수 무한 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 48,
+   "region": "문산",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "라헬헤어",
+   "tel": "070-4006-0357",
+   "addr": "경기도 파주시 문산읍 문향로 75번길 19-12, 1층 일부",
+   "discount": "10%이상 할인",
+   "detail": "컷트 17,000원→15,000원",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 49,
+   "region": "문산",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "로얄 모텔",
+   "tel": "031-953-6667",
+   "addr": "경기도 파주시 문산읍 문향로49번길 20",
+   "discount": "10%이상 서비스제공",
+   "detail": "이용시간 추가 제공 (대실 4시간→6시간, 숙박 12시퇴실→14시퇴실)",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 50,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "말랭이비빔국수",
+   "tel": "031-952-8877",
+   "addr": "경기도 파주시 문산읍 방촌로 1463, 가동 1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수, 사이드 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 51,
+   "region": "문산",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "모텔청화",
+   "tel": "031-952-2626",
+   "addr": "경기도 파주시 문산읍 문향로 69-15",
+   "discount": "10%이상 할인",
+   "detail": "65,000원→55,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 52,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "바른생고기정육점 소풍정육식당",
+   "tel": "031-953-2140",
+   "addr": "경기도 파주시 문산읍 문향로 12, 1~2층",
+   "discount": "10%이상 서비스제공",
+   "detail": "테이블당 5,000원 할인, 계란찜,찌개 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 53,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "박여사미락감자탕",
+   "tel": "031-954-1210",
+   "addr": "경기도 파주시 문산읍 봉미로 9",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 54,
+   "region": "문산",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "박준 뷰티랩",
+   "tel": "031-954-0454",
+   "addr": "경기도 파주시 문산읍 방촌로 1719",
+   "discount": "10% 할인",
+   "detail": "전품목 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 55,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "별하(BYULHA)",
+   "tel": "010-9339-3234",
+   "addr": "경기도 파주시 문산읍 방촌로 1744, 에이상가동 지하1층 104호",
+   "discount": "10% 할인",
+   "detail": "주류제외 결제금액 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 56,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "북촌손만두 파주문산점",
+   "tel": "031-953-5988",
+   "addr": "경기도 파주시 문산읍 우계로424, 1층 110호",
+   "discount": "10% 할인",
+   "detail": "금액의 10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 57,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "삼겹살에 소주한잔",
+   "tel": "031-953-0068",
+   "addr": "경기도 파주시 문산읍 문향로 84번길 2, 2층",
+   "discount": "10%이상 서비스제공",
+   "detail": "계란후라이, 음료 서비스",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 58,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "상원각",
+   "tel": "031-952-7303",
+   "addr": "경기도 파주시 문산읍 문향로 35",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료, 군만두 서비스",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 59,
+   "region": "문산",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "샴푸의요정",
+   "tel": "031-953-6639",
+   "addr": "경기도 파주시 문산읍 문향로 60-1",
+   "discount": "10%이상 할인",
+   "detail": "컷트 18,000원→16,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 60,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "숯불에닭 문산점",
+   "tel": "031-953-3660",
+   "addr": "경기도 파주시 문산읍 문산로40번길 41 (상가(118, 119호))",
+   "discount": "10%이상 서비스제공",
+   "detail": "사이드메뉴 서비스",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 61,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "쑝쑝돈까스 문산점",
+   "tel": "031-953-0339",
+   "addr": "경기도 파주시 문산읍 문향로67번길 10, 1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "사이드 메뉴 서비스",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 62,
+   "region": "문산",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "씨케이미용실(CK 헤어)",
+   "tel": "070-4240-1112",
+   "addr": "경기도 파주시 문산읍 당동2로 11-5",
+   "discount": "10%이상 할인",
+   "detail": "컷트 18,000원→15,000원",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 63,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "임진강나루",
+   "tel": "031-954-9898",
+   "addr": "경기도 파주시 문산읍 반구정로 53-51",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 64,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "장단가든",
+   "tel": "031-954-1559",
+   "addr": "경기도 파주시 문산읍 임진나루길 133-12",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수, 공기밥 서비스",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 65,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "장단콩전문점",
+   "tel": "031-953-1953",
+   "addr": "경기도 파주시 문산읍 문향로 59,1층 일부",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료 또는 금액서비스",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 66,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "천하곱창",
+   "tel": "031-952-8188",
+   "addr": "경기도 파주시 문산읍 문향로 81",
+   "discount": "10% 할인",
+   "detail": "테이블당 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 67,
+   "region": "문산",
+   "cats": [
+    "bath"
+   ],
+   "type": "목욕장업",
+   "name": "청도훼미리랜드",
+   "tel": "031-953-6600",
+   "addr": "경기도 파주시 문산읍 문산리 17-25",
+   "discount": "10%이상 할인",
+   "detail": "목욕요금 10,000원→9,000원",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 68,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "커피베이스",
+   "tel": "031-954-0468",
+   "addr": "경기도 파주시 문산읍 독산로 48",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 69,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "한성회관",
+   "tel": "031-953-3392",
+   "addr": "경기도 파주시 문산읍 당동1로 44, 1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "소주할인(4,000원 → 3,000원)",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 70,
+   "region": "문산",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "헤어갤러리",
+   "tel": "031-954-3060",
+   "addr": "경기도 파주시 문산로26번길 2",
+   "discount": "10%이상 할인",
+   "detail": "컷트 12,000원→9,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 71,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "삼산회관 파주문산점",
+   "tel": "031-959-5609",
+   "addr": "경기도 파주시 문산읍 문향로 71, 107호",
+   "discount": "10% 할인",
+   "detail": "테이블 메인메뉴 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 72,
+   "region": "문산",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "아리비스트로",
+   "tel": "0507-1390-6323",
+   "addr": "경기도 파주시 문산읍 당동1로 53-5, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 73,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "숙성사돈 파주 법원리 본점",
+   "tel": "031-958-1253",
+   "addr": "경기도 파주시 법원읍 술이홀로 888-2, 1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "결제금액 5% 할인, 테이블 당 음료 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 74,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "김밥나라",
+   "tel": "031-959-0526",
+   "addr": "경기도 파주시 법원읍 사임당로 839",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수 제공 또는 공기밥 제공",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 75,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "네네치킨",
+   "tel": "031-959-1017/1014",
+   "addr": "경기도 파주시 법원읍 사임당로 791",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수 or 치즈볼 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 76,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "대가감자탕",
+   "tel": "031-959-9285",
+   "addr": "경기도 파주시 법원읍 술이홀로 873,1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "결제금액 5% 할인, 음료 제공",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 77,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "로얄치킨/곱창매니아",
+   "tel": "031-958-4214",
+   "addr": "경기도 파주시 법원읍 술이홀로 890-3",
+   "discount": "10%이상 서비스제공",
+   "detail": "결제금액 5% 할인, 5%에 상응하는 음료 또는 사이드 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 78,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "무진장순대국",
+   "tel": "031-958-8446",
+   "addr": "경기도 파주시 법원읍 사임당로 816",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 79,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "바다수퍼 해물천하 조개구이.찜",
+   "tel": "031-958-5277",
+   "addr": "경기도 파주시 법원읍 사임당로 820",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료 또는 사이드 제공",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 80,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "버섯집 초리골",
+   "tel": "031-958-6200",
+   "addr": "경기도 파주시 법원읍 초리골길 23",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 81,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "오태식해바라기치킨",
+   "tel": "031-958-1180",
+   "addr": "경기도 파주시 법원읍 사임당로 844",
+   "discount": "10%이상 서비스제공",
+   "detail": "계산액의 10% 할인 또는 음료 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 82,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "왕가네",
+   "tel": "031-958-6999",
+   "addr": "경기도 파주시 법원읍 법원로 20",
+   "discount": "10%이상 서비스제공",
+   "detail": "계산액의 10% 할인 또는 음료 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 83,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "종단 아구찜",
+   "tel": "031-958-1258",
+   "addr": "경기도 파주시 법원읍 법원로 868",
+   "discount": "10% 할인",
+   "detail": "계산액의 10% 할인, 공기밥과 음료수 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 84,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "㈜함지박",
+   "tel": "031-958-9295",
+   "addr": "경기도 파주시 법원읍 사임당로 800-8",
+   "discount": "10% 할인",
+   "detail": "계산액의 10% 할인, 카페이용시 커피할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 85,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "차향만당",
+   "tel": "031-958-3320",
+   "addr": "경기도 파주시 법원읍 초리골길 70",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 86,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "초리골 제빵소",
+   "tel": "031-959-0045",
+   "addr": "경기도 파주시 법원읍 초리골길 77",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 87,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "초리연",
+   "tel": "031-959-2179",
+   "addr": "경기도 파주시 법원읍 초리골길 357-18",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 88,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "통일식당",
+   "tel": "031-958-5353",
+   "addr": "경기도 파주시 법원읍 사임당로 842",
+   "discount": "10% 할인",
+   "detail": "계산액의 10% 할인, 음료제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 89,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "능심",
+   "tel": "0507-1393-8253",
+   "addr": "경기도 파주시 법원읍 애룡길 168, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 90,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "테라스커피",
+   "tel": "0507-1396-3680",
+   "addr": "경기도 파주시 법원읍 애룡길 179, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 91,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "장단콩콩사임당두부 3호점",
+   "tel": "010-7735-7191",
+   "addr": "경기도 파주시 법원읍 애룡길 179-6, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인, 음료제공",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 92,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "대덕가든",
+   "tel": "031-959-7788",
+   "addr": "경기도 파주시 법원읍 애룡길 175",
+   "discount": "10% 할인",
+   "detail": "10% 할인, 음료제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 93,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "커피먹고가세",
+   "tel": "010-5283-1489",
+   "addr": "경기도 파주시 법원읍 애룡길 179-11, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 94,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "훌랄라",
+   "tel": "031-959-1182",
+   "addr": "경기도 파주시 법원읍 사임당로 820. 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 95,
+   "region": "법원",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "백합미용실",
+   "tel": "031-959-3722",
+   "addr": "경기도 파주시 법원읍 사임당로 815, 1층",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 96,
+   "region": "법원",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "미미미용실",
+   "tel": "031-958-2393",
+   "addr": "경기도 파주시 법원읍 술이홀로 869, 1층",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 97,
+   "region": "법원",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "엣지머리방",
+   "tel": "031-959-9137",
+   "addr": "경기도 파주시 법원읍 사임당로 836-1, 1층",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 98,
+   "region": "법원",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "솔리드헤어",
+   "tel": "031-958-8294",
+   "addr": "경기도 파주시 법원읍 사임당로 832-2, 1층",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 99,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "콩마루 사임당두부",
+   "tel": "031-935-0609",
+   "addr": "경기도 파주시 법원읍 사임당로 808-1, 1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료, 공기밥, 사이드메뉴 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 100,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "신양꼬치&마라탕",
+   "tel": "0507-1306-0792",
+   "addr": "경기도 파주시 법원읍 술이홀로 868-2, 1층",
+   "discount": "10% 할인",
+   "detail": "결제금액 10% 할인(구이류종류), 콜라제공",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 101,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "BBQ파주법원점",
+   "tel": "031-958-5515",
+   "addr": "경기도 파주시 법원읍 사임당로 821-2, 1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료류 또는 사이드메뉴",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 102,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "7042",
+   "tel": "010-9700-1546",
+   "addr": "경기도 파주시 법원읍 사임당로 770번길 27, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 103,
+   "region": "법원",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "이혜숙헤어",
+   "tel": "-",
+   "addr": "경기도 파주시 법원읍 사임당로 839, 1층",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 104,
+   "region": "법원",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "자유미용실",
+   "tel": "031-958-5559",
+   "addr": "경기도 파주시 법원읍 사임당로 841-1, 1층",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 105,
+   "region": "법원",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "챠밍미용실",
+   "tel": "031-959-5341",
+   "addr": "경기도 파주시 법원읍 사임당로 857번길 6-1, 1층",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 106,
+   "region": "법원",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "신디헤어",
+   "tel": "031-959-1414",
+   "addr": "경기도 파주시 법원읍 사임당로 850-2, 1층",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 107,
+   "region": "법원",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "느낌헤어",
+   "tel": "031-958-9972",
+   "addr": "경기도 파주시 법원읍 사임당로 851, 1층",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 108,
+   "region": "법원",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "더벅머리",
+   "tel": "-",
+   "addr": "경기도 파주시 법원읍 사임당로 864",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 109,
+   "region": "법원",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "솥뚜껑삼겹살",
+   "tel": "031-958-1971",
+   "addr": "경기도 파주시 법원읍 사임당로 814, 1층",
+   "discount": "5%이상 서비스 제공",
+   "detail": "공기밥 무제한, 공기밥 미주문시 5% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 110,
+   "region": "운정",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "밥꼬 운정점",
+   "tel": "031-946-0096",
+   "addr": "경기도 파주시 산내로 104번길 21-3, 1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "소주제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 111,
+   "region": "운정",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "또오리",
+   "tel": "031-942-5295",
+   "addr": "경기도 파주시 경의로 999-1, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 112,
+   "region": "운정",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "브런치빈 파주점",
+   "tel": "031-949-0803",
+   "addr": "경기도 파주시 경의로 1090 삼융타워 802호,803호",
+   "discount": "10%이상 서비스제공",
+   "detail": "베이컨치즈프라이 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 113,
+   "region": "운정",
+   "cats": [
+    "cafe"
+   ],
+   "type": "휴게음식점",
+   "name": "촉촉베이커리 앤 카페",
+   "tel": "031-913-0110",
+   "addr": "경기도 파주시 가람로21번길 47, 1층 일부",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 114,
+   "region": "운정",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "해녀밥상",
+   "tel": "070-8987-8899",
+   "addr": "경기도 파주시 청암로 17번길 25, 204호",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 115,
+   "region": "운정",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "숙성사돈 운정역점",
+   "tel": "031-941-1254",
+   "addr": "경기도 파주시 경의로 1240번길 15, 101, 102호",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 116,
+   "region": "운정",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "비비큐 파주운정스타필드점",
+   "tel": "0507-1478-5077",
+   "addr": "경기도 파주시 경의로 1240번길 14-11, 112호,113호",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 117,
+   "region": "운정",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "삼산회관 파주야당점",
+   "tel": "031-943-6265",
+   "addr": "경기도 파주시 경의로 1030, 1층 107호",
+   "discount": "10% 할인",
+   "detail": "메인메뉴 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 118,
+   "region": "운정",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "삼산회관 파주운정가람마을점",
+   "tel": "010-8114-5740",
+   "addr": "경기도 파주시 가람로51번길 16-30, 102호",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 119,
+   "region": "운정",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "양복점 파주야당점",
+   "tel": "0507-1378-2394",
+   "addr": "경기도 파주시 야당동 1064, 106~107호",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 120,
+   "region": "운정",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "육심외할머니가든",
+   "tel": "070-7710-9292",
+   "addr": "경기도 파주시 경의로 1240번길 14-11, 204호",
+   "discount": "10% 할인",
+   "detail": "현역 10%, 직업군인 5% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 121,
+   "region": "월롱",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "말랭이국수",
+   "tel": "031-945-7772",
+   "addr": "경기도 파주시 월롱면 통일로 725, 1층 일부",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수, 튀김만두제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 122,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "산아래",
+   "tel": "031-959-0818",
+   "addr": "경기도 파주시 적성면 감악산로1241번길 56",
+   "discount": "10%이상 서비스제공",
+   "detail": "공기밥 무제한",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 123,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "감악산한우마을구이식당",
+   "tel": "031-959-4992",
+   "addr": "경기도 파주시 적성면 솥뒤로 38-1",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 124,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "그때그집",
+   "tel": "031-958-8246",
+   "addr": "경기도 파주시 적성면 솥뒤로 15",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 125,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "능이백숙오리,닭칼국수",
+   "tel": "031-959-3487",
+   "addr": "경기도 파주시 적성면 칠중5길 144",
+   "discount": "10% 할인",
+   "detail": "결제금액 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 126,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "두지리강촌매운탕",
+   "tel": "031-959-3858",
+   "addr": "경기도 파주시 적성면 술이홀로2316번길 31",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 127,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "두지리별장매운탕",
+   "tel": "031-959-3865",
+   "addr": "경기도 파주시 적성면 술이홀로2316번길 18",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 128,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "명랑핫도그 적성점",
+   "tel": "031-958-5558",
+   "addr": "경기도 파주시 적성면 청송로 1022, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 129,
+   "region": "적성",
+   "cats": [
+    "bath"
+   ],
+   "type": "목욕장업",
+   "name": "승원24시사우나",
+   "tel": "031-959-4347",
+   "addr": "경기도 파주시 적성면 칠중5길 8",
+   "discount": "10% 할인",
+   "detail": "목욕요금 9,000원→8,000원",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 130,
+   "region": "적성",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "승원장",
+   "tel": "031-959-4347",
+   "addr": "경기도 파주시 적성면 칠중5길 8",
+   "discount": "10%이상 할인",
+   "detail": "숙박요금 30,000→25,000원",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 131,
+   "region": "적성",
+   "cats": [
+    "cafe"
+   ],
+   "type": "휴게음식점",
+   "name": "애플트리",
+   "tel": "010-6225-8264",
+   "addr": "경기도 파주시 적성면 국사로 293",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 132,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "용화반점",
+   "tel": "031-959-4055",
+   "addr": "경기도 파주시 적성면 솥뒤로 28 1층",
+   "discount": "10%이상 서비스제공",
+   "detail": "배달 시 음료수, 만두 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 133,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "원조두지리매운탕1호점",
+   "tel": "031-959-5377",
+   "addr": "경기도 파주시 적성면 술이홀로2316번길 45",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 134,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "유진참치",
+   "tel": "031-959-3309",
+   "addr": "경기도 파주시 적성면 감악산로 1226",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 135,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "임진강 인천식당 한우마을",
+   "tel": "031-959-3665",
+   "addr": "경기도 파주시 적성면 솥뒤로37번길 4",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 136,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "임진강매운탕",
+   "tel": "031-959-1525",
+   "addr": "경기도 파주시 적성면 술이홀로2316번길 39",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 137,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "장단콩퇴골두부",
+   "tel": "031-959-4023",
+   "addr": "경기도 파주시 적성면 칠중3길 145",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 138,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "장수인삼족발보쌈",
+   "tel": "031-958-4091",
+   "addr": "경기도 파주시 적성면 칠중3길 15 ,1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 139,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "짱미엔",
+   "tel": "031-958-2670",
+   "addr": "경기도 파주시 적성면 솥뒤로 14-1",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 140,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "탕수육",
+   "tel": "031-959-3569",
+   "addr": "경기도 파주시 적성면 청송로 1061, 1층 전체",
+   "discount": "10%이상 서비스제공",
+   "detail": "면종류 곱빼기할인(2,000원)",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 141,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "파주연천축협 정육식당",
+   "tel": "031-958-6898",
+   "addr": "경기도 파주시 적성면 솥뒤로 32-2",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수 제공",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 142,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "현대식당",
+   "tel": "031-959-3593",
+   "addr": "경기도 파주시 적성면 청송로 1039",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 143,
+   "region": "적성",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "화정족발 적성점",
+   "tel": "031-958-1127",
+   "addr": "경기도 파주시 적성면 청송로 1027",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 144,
+   "region": "적성",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "예원헤어크레앙스",
+   "tel": "031-959-8877",
+   "addr": "경기도 파주시 적성면 솥뒤로 16",
+   "discount": "10%이상 할인",
+   "detail": "컷트 15,000원→13,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 145,
+   "region": "조리",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "상원포크",
+   "tel": "031-949-5100",
+   "addr": "경기도 파주시 조리읍 봉천로 63",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 146,
+   "region": "조리",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "샤브올데이 파주봉일천점",
+   "tel": "031-942-0310",
+   "addr": "경기도 파주시 조리읍 통일로 292, 1층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 147,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "DMZ장단콩두부마을",
+   "tel": "031-945-3370",
+   "addr": "경기도 파주시 탄현면 평화로 902",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 148,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "더위즈(The WIZ)",
+   "tel": "031-944-7779",
+   "addr": "경기도 파주시 탄현면 성동로 20-45",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 149,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "베로키오",
+   "tel": "031-945-3071",
+   "addr": "경기도 파주시 탄현면 새오리로 74",
+   "discount": "10% 할인",
+   "detail": "총금액 10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 150,
+   "region": "탄현",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "벨리타",
+   "tel": "031-942-5858",
+   "addr": "경기도 파주시 탄현면 새오리로161번길 53",
+   "discount": "10%이상 할인",
+   "detail": "숙박요금 70,000→60,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 151,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "복드림한우고기",
+   "tel": "031-944-8060",
+   "addr": "경기도 파주시 탄현면 새오리로 48",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 152,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "어화둥둥",
+   "tel": "031-945-1128",
+   "addr": "경기도 파주시 탄현면 새오리로 113-46",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 153,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "옛날시골밥상",
+   "tel": "031-945-5957",
+   "addr": "경기도 파주시 탄현면 새오리로 10",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 154,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "청송마루",
+   "tel": "031-949-6143",
+   "addr": "경기도 파주시 탄현면 방촌로 1071",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 155,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "오두산막국수(통일로직영점)",
+   "tel": "031-945-3370",
+   "addr": "경기도 파주시 탄현면 성동로 17",
+   "discount": "10%이상 서비스제공",
+   "detail": "음식서비스제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 156,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "용궁칼국수",
+   "tel": "031-948-5527",
+   "addr": "경기도 파주시 탄현면 새오리로 59-52",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 157,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "전라도갈치찜전문점",
+   "tel": "031-949-7771",
+   "addr": "경기도 파주시 탄현면 매봉길 12",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 158,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "전망대 누룽지 백숙",
+   "tel": "031-942-9696",
+   "addr": "경기도 파주시 탄현면 새오리로 215-36",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료제공",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 159,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "짹짹곳간",
+   "tel": "0507-1364-8187",
+   "addr": "경기도 파주시 탄현면 새오리로339번길 79-48, 1동일부",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 160,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "초원",
+   "tel": "031-8071-3405",
+   "addr": "경기도 파주시 탄현면 엘씨디로241번길 47-9",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 161,
+   "region": "탄현",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "파주풀빌라워라벨호스텔",
+   "tel": "0507-1372-5520",
+   "addr": "경기도 파주시 탄현면 엘지로 709",
+   "discount": "10%이상 할인",
+   "detail": "50,000원 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 162,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "평양만두",
+   "tel": "031-945-9452",
+   "addr": "경기도 파주시 탄현면 새오리로 193",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 163,
+   "region": "탄현",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "피카소",
+   "tel": "031-947-5512",
+   "addr": "경기도 파주시 탄현면 성동로 34",
+   "discount": "10% 할인",
+   "detail": "객실요금 10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 164,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "해민도예",
+   "tel": "031-942-3221",
+   "addr": "경기도 파주시 탄현면 새오리로 195-28",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 165,
+   "region": "탄현",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "헤이리풀빌라워라밸호스텔",
+   "tel": "-",
+   "addr": "경기도 파주시 탄현면 샘철길 38-12",
+   "discount": "10%이상 할인",
+   "detail": "객실요금 15% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 166,
+   "region": "탄현",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "호텔위즈",
+   "tel": "031-949-9046",
+   "addr": "경기도 파주시 탄현면 성동로 20-45",
+   "discount": "10% 할인",
+   "detail": "객실요금 10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 167,
+   "region": "탄현",
+   "cats": [
+    "bath"
+   ],
+   "type": "목욕장업",
+   "name": "홍삼스파참숯가마사우나",
+   "tel": "031-942-2288",
+   "addr": "경기도 파주시 탄현면 장릉로 5",
+   "discount": "10%이상 할인",
+   "detail": "목욕 2,000원 할인 (평일11,000원→9,000원, 주말12,000원→10,000원 )",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 168,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "흔적",
+   "tel": "031-948-8585",
+   "addr": "경기도 파주시 탄현면 새오리로 59-20",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 169,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "최고야짬뽕",
+   "tel": "031-957-9819",
+   "addr": "경기도 파주시 탄현면 필승로 490",
+   "discount": "10% 할인",
+   "detail": "전체금액 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 170,
+   "region": "탄현",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "물고기자리",
+   "tel": "031-941-2695",
+   "addr": "경기도 파주시 탄현면 헤이리마을길 48-48",
+   "discount": "10% 할인",
+   "detail": "파스타, 피자 10%할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 171,
+   "region": "탄현",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "굿타임",
+   "tel": "031-942-6858",
+   "addr": "경기도 파주시 탄현면 새오리로161번길 53-34, ,53-32",
+   "discount": "10%이상 할인",
+   "detail": "숙박요금 70,000원→60,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 172,
+   "region": "탄현",
+   "cats": [
+    "cafe"
+   ],
+   "type": "휴게음식점",
+   "name": "디엠지라운지(DMZ LOUNGE)",
+   "tel": "031-959-2353",
+   "addr": "경기도 파주시 탄현면 새오리로161번길 90",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 173,
+   "region": "파주",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "웅이네 의정부부대찌개",
+   "tel": "031-954-0431",
+   "addr": "경기도 파주시 파주읍 파발로 9",
+   "discount": "10%이상 서비스제공",
+   "detail": "테이블당 인원수대로 음료수 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 174,
+   "region": "파주",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "남해바다",
+   "tel": "031-952-9282",
+   "addr": "경기도 파주시 파주읍 시장거리길 59-7",
+   "discount": "10%이상 서비스제공",
+   "detail": "결제금액 5% 할인, 테이블당 음료 제공",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 175,
+   "region": "파주",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "뚱이네",
+   "tel": "-",
+   "addr": "경기도 파주시 파주읍 교육길 45-32 나동 102호",
+   "discount": "10%이상 서비스제공",
+   "detail": "음료수 및 음식 서비스",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 176,
+   "region": "파주",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "이조맛집",
+   "tel": "031-953-3330",
+   "addr": "경기도 파주시 파주읍 술이홀로 392",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 177,
+   "region": "파주",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "짜장마을",
+   "tel": "031-954-7744",
+   "addr": "경기도 파주시 파주읍 술이홀로 463",
+   "discount": "10%이상 서비스제공",
+   "detail": "결제금액 5% 할인, 음료 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 178,
+   "region": "파주",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "6000컷트",
+   "tel": "031-952-6254",
+   "addr": "경기도 파주시 파주읍 술이홀로 470",
+   "discount": "10% 할인",
+   "detail": "컷트 10,000원→9,000원",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 179,
+   "region": "파주",
+   "cats": [
+    "beauty"
+   ],
+   "type": "미용업",
+   "name": "로즈헤어샾",
+   "tel": "031-953-8128",
+   "addr": "경기도 파주시 파주읍 파발로 4",
+   "discount": "10% 할인",
+   "detail": "커트 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 180,
+   "region": "파주",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "바리루스",
+   "tel": "031-953-0060",
+   "addr": "경기도 파주시 파주읍 봉서산로 245, 2층",
+   "discount": "10% 할인",
+   "detail": "10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 181,
+   "region": "파주",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "봉황가",
+   "tel": "031-953-5354",
+   "addr": "경기도 파주시 파주읍 우계로 35-1, 1층",
+   "discount": "10% 할인",
+   "detail": "결제금액 10% 할인, 음료수 제공",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 182,
+   "region": "파주",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "소풍N",
+   "tel": "070-7725-0224",
+   "addr": "경기도 파주시 파주읍 우계로 24, 1호",
+   "discount": "10% 할인",
+   "detail": "10%할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 183,
+   "region": "파평",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "샘내 손두부",
+   "tel": "031-958-4222",
+   "addr": "경기도 파주시 파평면 청송로 551-7",
+   "discount": "10% 할인",
+   "detail": "결제금액 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 184,
+   "region": "파평",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "아비숑",
+   "tel": "031-953-7470",
+   "addr": "경기도 파주시 파평면 화석정로126번길 122-35",
+   "discount": "10%이상 할인",
+   "detail": "숙박요금 40,000원→35,000원",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 185,
+   "region": "파평",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "앵무새카페",
+   "tel": "031-952-2002",
+   "addr": "경기도 파주시 파평면 파평산로363번길 32-9",
+   "discount": "10% 할인",
+   "detail": "결제금액 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 186,
+   "region": "파평",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "임꺽정 한우마을",
+   "tel": "031-954-3998",
+   "addr": "경기도 파주시 파평면 화석정로 104",
+   "discount": "10% 할인",
+   "detail": "결제금액 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 187,
+   "region": "파평",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "임진강수라상",
+   "tel": "031-952-9960",
+   "addr": "경기도 파주시 파평면 화석정로 101",
+   "discount": "10% 할인",
+   "detail": "결제금액 10% 할인",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 188,
+   "region": "파평",
+   "cats": [
+    "stay"
+   ],
+   "type": "숙박업",
+   "name": "포시즌",
+   "tel": "031-954-0021",
+   "addr": "경기도 파주시 파평면 화석정로126번길 144-20",
+   "discount": "10%이상 서비스제공",
+   "detail": "주말숙박(45,000원) 추가인원비용(10,000원) 안받음",
+   "socialWorker": true,
+   "lat": null,
+   "lng": null
+  },
+  {
+   "id": 189,
+   "region": "파평",
+   "cats": [
+    "food"
+   ],
+   "type": "일반음식점",
+   "name": "한우리매운탕",
+   "tel": "031-945-2238",
+   "addr": "경기도 파주시 파평면 장승배기로 173-8",
+   "discount": "10% 할인",
+   "detail": "결제금액 10% 할인",
+   "socialWorker": false,
+   "lat": null,
+   "lng": null
+  }
+ ]
+}
