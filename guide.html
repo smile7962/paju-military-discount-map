@@ -3,343 +3,300 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>파주 군장병 할인업소 지도 · 사용법</title>
-<meta name="description" content="파주시 군 장병·사회복무요원 할인업소 189개소 지도 서비스 사용법 인포그래픽">
+<title>파주 군장병 할인업소 지도 · 사용 안내</title>
+<meta name="description" content="파주시 군 장병·사회복무요원 할인업소 189개소 지도 서비스 사용 안내">
 <meta name="theme-color" content="#2f5233">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎖️</text></svg>">
 <style>
   :root{
-    --ground:#e7eae0;
-    --surface:#fbfcf8;
-    --surface-2:#f1f3ea;
-    --ink:#1b241a;
-    --ink-soft:#4c5748;
-    --ink-faint:#7a8474;
-    --field:#2f5233;
-    --field-2:#3f6b43;
-    --brass:#9d7621;
-    --brass-2:#b8892b;
-    --line:rgba(31,44,26,.14);
-    --line-strong:rgba(31,44,26,.26);
-    --shadow:0 1px 2px rgba(20,30,18,.06),0 10px 30px -18px rgba(20,30,18,.4);
-    --tape:rgba(157,118,33,.16);
-    /* app category hues */
-    --c-food:#d84a3f; --c-beauty:#8a53bd; --c-stay:#2f9067; --c-cafe:#a06a3c; --c-bath:#2f7fc9;
+    --page:#f4f5f1;
+    --card:#ffffff;
+    --sub:#f7f8f4;
+    --ink:#1c2620;
+    --ink-soft:#515c52;
+    --ink-faint:#8a938440;
+    --muted:#7c857b;
+    --green:#2f5233;
+    --green-2:#3f6b43;
+    --green-deep:#233f22;
+    --red:#d23f31;
+    --red-soft:#fbeae7;
+    --red-ink:#b5372b;
+    --line:#e4e7e0;
+    --line-2:#d3d8ce;
+    --peach-bg:#fbe9e2;
+    --peach-ink:#a8503a;
+    --shadow:0 1px 2px rgba(24,34,26,.05),0 12px 28px -20px rgba(24,34,26,.45);
+    --shadow-lg:0 2px 6px rgba(24,34,26,.06),0 26px 50px -28px rgba(24,34,26,.5);
   }
   @media (prefers-color-scheme:dark){
     :root{
-      --ground:#12160e;
-      --surface:#1b2016;
-      --surface-2:#232a1d;
-      --ink:#edf0e4;
-      --ink-soft:#b3bda9;
-      --ink-faint:#7f8a76;
-      --field:#6ea36f;
-      --field-2:#82b982;
-      --brass:#d8b45a;
-      --brass-2:#e6c774;
-      --line:rgba(220,228,205,.13);
-      --line-strong:rgba(220,228,205,.24);
-      --shadow:0 1px 2px rgba(0,0,0,.4),0 14px 34px -18px rgba(0,0,0,.7);
-      --tape:rgba(216,180,90,.14);
-      --c-food:#e2695f; --c-beauty:#a473d4; --c-stay:#48b184; --c-cafe:#c08a55; --c-bath:#4f9bde;
+      --page:#10140d;--card:#191e14;--sub:#20261a;--ink:#eef1e6;--ink-soft:#b6bfac;
+      --muted:#828c78;--green:#7bb07c;--green-2:#8ec28e;--green-deep:#c9e3c7;
+      --red:#e97264;--red-soft:#2c1c18;--red-ink:#f0958a;--line:#2b3222;--line-2:#39412d;
+      --peach-bg:#2a1c17;--peach-ink:#e9a08c;
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 16px 34px -22px rgba(0,0,0,.75);
+      --shadow-lg:0 2px 8px rgba(0,0,0,.45),0 30px 60px -30px rgba(0,0,0,.85);
     }
   }
   :root[data-theme="light"]{
-    --ground:#e7eae0;--surface:#fbfcf8;--surface-2:#f1f3ea;--ink:#1b241a;--ink-soft:#4c5748;--ink-faint:#7a8474;
-    --field:#2f5233;--field-2:#3f6b43;--brass:#9d7621;--brass-2:#b8892b;--line:rgba(31,44,26,.14);--line-strong:rgba(31,44,26,.26);
-    --shadow:0 1px 2px rgba(20,30,18,.06),0 10px 30px -18px rgba(20,30,18,.4);--tape:rgba(157,118,33,.16);
-    --c-food:#d84a3f;--c-beauty:#8a53bd;--c-stay:#2f9067;--c-cafe:#a06a3c;--c-bath:#2f7fc9;
+    --page:#f4f5f1;--card:#ffffff;--sub:#f7f8f4;--ink:#1c2620;--ink-soft:#515c52;--muted:#7c857b;
+    --green:#2f5233;--green-2:#3f6b43;--green-deep:#233f22;--red:#d23f31;--red-soft:#fbeae7;--red-ink:#b5372b;
+    --line:#e4e7e0;--line-2:#d3d8ce;--peach-bg:#fbe9e2;--peach-ink:#a8503a;
+    --shadow:0 1px 2px rgba(24,34,26,.05),0 12px 28px -20px rgba(24,34,26,.45);
+    --shadow-lg:0 2px 6px rgba(24,34,26,.06),0 26px 50px -28px rgba(24,34,26,.5);
   }
   :root[data-theme="dark"]{
-    --ground:#12160e;--surface:#1b2016;--surface-2:#232a1d;--ink:#edf0e4;--ink-soft:#b3bda9;--ink-faint:#7f8a76;
-    --field:#6ea36f;--field-2:#82b982;--brass:#d8b45a;--brass-2:#e6c774;--line:rgba(220,228,205,.13);--line-strong:rgba(220,228,205,.24);
-    --shadow:0 1px 2px rgba(0,0,0,.4),0 14px 34px -18px rgba(0,0,0,.7);--tape:rgba(216,180,90,.14);
-    --c-food:#e2695f;--c-beauty:#a473d4;--c-stay:#48b184;--c-cafe:#c08a55;--c-bath:#4f9bde;
+    --page:#10140d;--card:#191e14;--sub:#20261a;--ink:#eef1e6;--ink-soft:#b6bfac;--muted:#828c78;
+    --green:#7bb07c;--green-2:#8ec28e;--green-deep:#c9e3c7;--red:#e97264;--red-soft:#2c1c18;--red-ink:#f0958a;
+    --line:#2b3222;--line-2:#39412d;--peach-bg:#2a1c17;--peach-ink:#e9a08c;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 16px 34px -22px rgba(0,0,0,.75);
+    --shadow-lg:0 2px 8px rgba(0,0,0,.45),0 30px 60px -30px rgba(0,0,0,.85);
   }
 
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%}
   body{
-    margin:0;
-    background:var(--ground);
-    color:var(--ink);
+    margin:0;background:var(--page);color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR","Malgun Gothic",system-ui,sans-serif;
-    line-height:1.6;
-    -webkit-font-smoothing:antialiased;
-    text-rendering:optimizeLegibility;
+    line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
   }
-  .wrap{max-width:760px;margin:0 auto;padding:20px 16px 56px}
-  @media (min-width:720px){.wrap{padding:40px 28px 72px}}
-
-  .eyebrow{
-    font-size:11px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;
-    color:var(--brass);font-variant-numeric:tabular-nums;
-  }
+  .sheet{max-width:940px;margin:0 auto;background:var(--card);box-shadow:var(--shadow-lg)}
+  .pad{padding:22px 20px}
+  @media (min-width:720px){.pad{padding:34px 44px}}
   .num{font-variant-numeric:tabular-nums;font-feature-settings:"tnum" 1}
 
-  /* ---------- header ---------- */
-  .hero{
-    position:relative;overflow:hidden;
-    border-radius:20px;
-    background:
-      linear-gradient(150deg,var(--field) 0%,#26401f 100%);
-    color:#f2f5ea;
-    padding:26px 22px 24px;
-    box-shadow:var(--shadow);
-    border:1px solid rgba(255,255,255,.06);
-  }
-  @media (prefers-color-scheme:dark){.hero{background:linear-gradient(150deg,#26401f 0%,#16240f 100%)}}
-  :root[data-theme="dark"] .hero{background:linear-gradient(150deg,#26401f 0%,#16240f 100%)}
-  :root[data-theme="light"] .hero{background:linear-gradient(150deg,var(--field) 0%,#26401f 100%)}
-  .hero::before{
-    content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
-    background-image:
-      repeating-linear-gradient(0deg,transparent 0 27px,rgba(255,255,255,.05) 27px 28px),
-      repeating-linear-gradient(90deg,transparent 0 27px,rgba(255,255,255,.05) 27px 28px);
-    -webkit-mask-image:radial-gradient(120% 90% at 85% 0%,#000,transparent 70%);
-            mask-image:radial-gradient(120% 90% at 85% 0%,#000,transparent 70%);
-  }
-  .hero > *{position:relative}
-  .hero .eyebrow{color:var(--brass-2)}
-  :root[data-theme="light"] .hero .eyebrow{color:#e8cf83}
-  .hero .eyebrow{color:#e8cf83}
-  .hero-top{display:flex;align-items:center;gap:10px;margin-bottom:14px}
-  .medal{
-    width:46px;height:46px;flex:none;border-radius:12px;
-    display:grid;place-items:center;font-size:26px;line-height:1;
-    background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);
-    box-shadow:inset 0 1px 0 rgba(255,255,255,.14);
-  }
-  h1{
-    margin:0;font-size:clamp(26px,7.5vw,40px);line-height:1.12;font-weight:900;
-    letter-spacing:-.02em;text-wrap:balance;
-  }
-  .hero-sub{margin:12px 0 0;max-width:44ch;color:rgba(242,245,234,.82);font-size:15px}
-  .hero-tag{
-    display:inline-flex;align-items:center;gap:6px;margin-top:16px;
-    padding:5px 11px;border-radius:999px;font-size:12px;font-weight:700;
-    background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);
-  }
+  /* ---------- top bar ---------- */
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;
+    padding:14px 20px;border-bottom:1px solid var(--line)}
+  @media (min-width:720px){.topbar{padding:16px 44px}}
+  .brand{display:flex;align-items:center;gap:11px}
+  .logo{width:40px;height:40px;flex:none;border-radius:10px;background:var(--green);
+    color:#fff;display:grid;place-items:center;font-size:13px;font-weight:900;letter-spacing:.02em;line-height:1;
+    box-shadow:inset 0 -6px 12px rgba(0,0,0,.12)}
+  :root[data-theme="dark"] .logo{color:#0f150b}
+  .brand .bt{display:flex;flex-direction:column;line-height:1.25}
+  .brand .bt b{font-size:14.5px;font-weight:850}
+  .brand .bt small{font-size:11px;color:var(--muted);font-weight:600}
+  .pill{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;
+    font-size:12px;font-weight:800;color:var(--green);background:transparent;
+    padding:7px 13px;border-radius:999px;border:1.5px solid var(--green);}
+  .pill .dot{width:6px;height:6px;border-radius:50%;background:var(--red)}
 
-  /* ---------- section shell ---------- */
-  section{margin-top:30px}
-  .sec-head{display:flex;align-items:baseline;gap:12px;margin:0 2px 14px}
-  .sec-head h2{margin:0;font-size:19px;font-weight:850;letter-spacing:-.01em}
-  .sec-head .rule{flex:1;height:1px;background:var(--line-strong);align-self:center}
+  /* ---------- hero ---------- */
+  .hero{display:grid;grid-template-columns:1fr;gap:26px;align-items:center}
+  @media (min-width:760px){.hero{grid-template-columns:1.15fr .85fr;gap:34px}}
+  .hero h1{margin:0 0 14px;font-size:clamp(27px,5.6vw,38px);line-height:1.18;font-weight:900;
+    letter-spacing:-.025em;text-wrap:balance}
+  .hero h1 .hl{color:var(--red)}
+  .hero .lead{margin:0 0 20px;font-size:15.5px;color:var(--ink-soft);max-width:46ch}
+  .blist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+  .blist li{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;font-size:14.5px;font-weight:600}
+  .blist li::before{content:"▸";color:var(--red);font-weight:900;font-size:15px;line-height:1.5}
 
-  /* ---------- stat band ---------- */
-  .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-  @media (min-width:560px){.stats{grid-template-columns:repeat(4,1fr)}}
-  .stat{
-    position:relative;background:var(--surface);border:1px solid var(--line);
-    border-radius:14px;padding:16px 14px;box-shadow:var(--shadow);
-  }
-  .stat::before{content:"";position:absolute;left:14px;top:14px;width:22px;height:3px;border-radius:2px;background:var(--brass)}
-  .stat b{display:block;font-size:34px;line-height:1;font-weight:900;letter-spacing:-.03em;margin:14px 0 4px;color:var(--field)}
-  :root[data-theme="light"] .stat b{color:var(--field)}
-  .stat span{font-size:12.5px;color:var(--ink-soft);font-weight:600}
+  /* phone mock */
+  .phone-wrap{justify-self:center;text-align:center}
+  .phone{width:246px;max-width:78vw;border-radius:34px;background:#0f150c;padding:9px;
+    box-shadow:0 8px 20px -6px rgba(0,0,0,.4),0 30px 60px -24px rgba(0,0,0,.5);
+    border:1px solid rgba(255,255,255,.08)}
+  .screen{border-radius:26px;overflow:hidden;background:var(--sub);border:1px solid rgba(0,0,0,.2)}
+  .s-head{background:var(--green);color:#fff;padding:11px 13px;display:flex;align-items:center;justify-content:space-between}
+  .s-head b{font-size:13px;font-weight:800}
+  .s-chips{display:flex;gap:5px;flex-wrap:wrap;padding:10px 11px 4px;background:var(--card)}
+  .s-chip{font-size:10.5px;font-weight:700;padding:4px 9px;border-radius:999px;background:var(--sub);
+    border:1px solid var(--line);color:var(--ink-soft)}
+  .s-chip.on{background:var(--green);color:#fff;border-color:var(--green)}
+  :root[data-theme="dark"] .s-chip.on{color:#0f150b}
+  .s-list{padding:6px 11px 12px;background:var(--card);display:flex;flex-direction:column;gap:7px}
+  .s-item{display:flex;gap:9px;align-items:center;background:var(--card);border:1px solid var(--line);
+    border-radius:11px;padding:8px 9px;text-align:left}
+  .s-pin{width:26px;height:26px;flex:none;border-radius:50% 50% 50% 3px;transform:rotate(45deg);display:grid;place-items:center}
+  .s-pin span{transform:rotate(-45deg);font-size:12px}
+  .s-item .it{flex:1;min-width:0}
+  .s-item .it b{display:block;font-size:11.5px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .s-item .it small{font-size:10px;color:var(--red-ink);font-weight:800}
+  .s-item .go{font-size:13px;color:var(--muted)}
+  .phone-cap{margin-top:12px;font-size:12px;color:var(--muted);font-weight:600}
 
-  /* ---------- steps ---------- */
-  .steps{display:flex;flex-direction:column;gap:12px}
-  .step{
-    display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;
-    background:var(--surface);border:1px solid var(--line);border-radius:16px;
-    padding:18px 18px 18px 16px;box-shadow:var(--shadow);
-  }
-  .step-n{
-    grid-row:1 / span 2;width:44px;height:44px;flex:none;border-radius:12px;
-    display:grid;place-items:center;font-size:16px;font-weight:900;
-    color:var(--field);background:var(--surface-2);
-    border:1px dashed var(--field-2);font-variant-numeric:tabular-nums;
-  }
-  :root[data-theme="dark"] .step-n{color:var(--field-2)}
-  .step h3{margin:2px 0 4px;font-size:16.5px;font-weight:800;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-  .step p{margin:0;color:var(--ink-soft);font-size:14px}
-  .step .chiplet{
-    display:inline-block;font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:999px;
-    background:var(--tape);color:var(--brass);border:1px solid var(--line);white-space:nowrap;
-  }
-  .step kbd{
-    font-family:inherit;font-weight:700;font-size:13px;padding:1px 7px;border-radius:7px;
-    background:var(--surface-2);border:1px solid var(--line-strong);color:var(--ink);
-  }
+  /* ---------- section ---------- */
+  .section{border-top:1px solid var(--line)}
+  .sec-head{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+  .sec-no{font-size:13px;font-weight:900;color:var(--red);letter-spacing:.05em}
+  .sec-head h2{margin:0;font-size:20px;font-weight:850;letter-spacing:-.01em}
 
-  /* ---------- category legend ---------- */
-  .cats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-  @media (min-width:560px){.cats{grid-template-columns:repeat(3,1fr)}}
-  .cat{
-    display:flex;align-items:center;gap:11px;background:var(--surface);
-    border:1px solid var(--line);border-radius:13px;padding:12px 13px;box-shadow:var(--shadow);
-  }
-  .pin{
-    width:30px;height:30px;flex:none;border-radius:50% 50% 50% 2px;transform:rotate(45deg);
-    display:grid;place-items:center;box-shadow:0 2px 6px -1px rgba(0,0,0,.35);
-  }
-  .pin span{transform:rotate(-45deg);font-size:15px;line-height:1}
-  .cat-txt{display:flex;flex-direction:column;line-height:1.25}
-  .cat-txt b{font-size:14.5px;font-weight:800}
-  .cat-txt small{font-size:12px;color:var(--ink-faint);font-weight:600}
+  /* start card */
+  .start{position:relative;display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;
+    background:var(--sub);border:1px solid var(--line);border-radius:18px;padding:22px}
+  @media (max-width:560px){.start{grid-template-columns:1fr;justify-items:center;text-align:center;gap:16px}}
+  .start::before,.start::after{content:"";position:absolute;width:22px;height:22px;border:2.5px solid var(--red);}
+  .start::before{top:-1px;left:-1px;border-right:0;border-bottom:0;border-top-left-radius:18px}
+  .start::after{bottom:-1px;right:-1px;border-left:0;border-top:0;border-bottom-right-radius:18px}
+  .qr{width:132px;height:132px;flex:none;background:#fff;border-radius:14px;padding:11px;
+    box-shadow:var(--shadow);color:#14251a}
+  .qr svg{display:block;width:100%;height:100%}
+  .start .eyebrow{font-size:11px;font-weight:900;letter-spacing:.22em;color:var(--red);text-transform:uppercase}
+  .start h3{margin:6px 0 8px;font-size:19px;font-weight:850;letter-spacing:-.01em}
+  .start p{margin:0 0 14px;font-size:14px;color:var(--ink-soft);max-width:42ch}
+  .urlchip{display:inline-flex;align-items:center;gap:8px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:13px;font-weight:600;color:var(--ink);background:var(--card);border:1px solid var(--line-2);
+    padding:8px 14px;border-radius:10px}
+  .urlchip .k{font-size:10px;font-weight:800;font-family:inherit;color:var(--muted);letter-spacing:.08em}
 
-  /* ---------- region bars ---------- */
-  .regions{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 18px 8px;box-shadow:var(--shadow)}
-  .bar-row{display:grid;grid-template-columns:56px 1fr 40px;align-items:center;gap:12px;padding:5px 0}
-  .bar-row .rname{font-size:13.5px;font-weight:700}
-  .bar-track{height:12px;border-radius:7px;background:var(--surface-2);overflow:hidden;border:1px solid var(--line)}
-  .bar-fill{height:100%;border-radius:7px;background:linear-gradient(90deg,var(--field-2),var(--field));min-width:6px}
-  :root[data-theme="dark"] .bar-fill{background:linear-gradient(90deg,var(--field),var(--field-2))}
-  .bar-val{font-size:13px;font-weight:800;text-align:right;color:var(--ink-soft)}
-  .regions-note{font-size:12px;color:var(--ink-faint);margin:10px 2px 2px;padding-top:10px;border-top:1px dashed var(--line-strong)}
+  /* install two cols */
+  .install{display:grid;grid-template-columns:1fr;gap:14px}
+  @media (min-width:620px){.install{grid-template-columns:1fr 1fr}}
+  .os{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
+  .os-head{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .os-badge{width:34px;height:34px;flex:none;border-radius:9px;display:grid;place-items:center;
+    font-size:11px;font-weight:900;color:#fff}
+  .os-badge.ios{background:#111}
+  .os-badge.aos{background:var(--green)}
+  :root[data-theme="dark"] .os-badge.ios{background:#e9ece3;color:#111}
+  :root[data-theme="dark"] .os-badge.aos{color:#0f150b}
+  .os-head b{font-size:15px;font-weight:850;display:block}
+  .os-head small{font-size:11.5px;color:var(--muted);font-weight:600}
+  .os ol{list-style:none;margin:0;padding:0;counter-reset:s;display:flex;flex-direction:column;gap:11px}
+  .os ol li{counter-increment:s;display:grid;grid-template-columns:auto 1fr;gap:11px;align-items:start;
+    font-size:13.5px;color:var(--ink-soft)}
+  .os ol li::before{content:counter(s);width:21px;height:21px;border-radius:50%;background:var(--sub);
+    color:var(--green);font-weight:800;font-size:11.5px;display:grid;place-items:center;border:1px solid var(--line-2)}
+  .os ol li b{color:var(--ink);font-weight:800}
 
-  /* ---------- extra features ---------- */
-  .feats{display:grid;grid-template-columns:1fr;gap:10px}
-  @media (min-width:560px){.feats{grid-template-columns:1fr 1fr}}
-  .feat{
-    display:flex;gap:12px;align-items:flex-start;background:var(--surface);
-    border:1px solid var(--line);border-radius:13px;padding:13px 14px;box-shadow:var(--shadow);
-  }
-  .feat .ico{font-size:19px;line-height:1.3;flex:none;width:26px;text-align:center}
-  .feat b{display:block;font-size:14px;font-weight:800;margin-bottom:1px}
-  .feat p{margin:0;font-size:12.8px;color:var(--ink-soft)}
-  .feat code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;background:var(--surface-2);padding:1px 5px;border-radius:5px;border:1px solid var(--line)}
+  /* highlight strip */
+  .strip{display:flex;align-items:center;gap:14px;background:var(--peach-bg);border-radius:14px;
+    padding:15px 18px;font-size:13.5px;color:var(--peach-ink);font-weight:600}
+  .strip .si{font-size:22px;flex:none}
+  .strip b{font-weight:850}
 
-  /* ---------- footer ---------- */
-  footer{margin-top:34px;text-align:center;color:var(--ink-faint);font-size:12.5px;line-height:1.7}
-  footer a{color:var(--brass);text-decoration:none;font-weight:700}
-  footer a:hover,footer a:focus-visible{text-decoration:underline}
-  footer .dogtag{
-    display:inline-block;margin-bottom:12px;padding:7px 16px;border-radius:999px;
-    border:1px solid var(--line-strong);background:var(--surface);font-weight:800;color:var(--ink-soft);letter-spacing:.02em;
-  }
+  /* bottom features */
+  .grid4{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;background:var(--line);
+    border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  @media (min-width:720px){.grid4{grid-template-columns:repeat(4,1fr)}}
+  .cell{background:var(--card);padding:18px 15px;display:flex;flex-direction:column;gap:7px}
+  .cell .ci{width:34px;height:34px;border-radius:9px;background:var(--sub);display:grid;place-items:center;font-size:17px;
+    border:1px solid var(--line)}
+  .cell b{font-size:13.5px;font-weight:800;line-height:1.35}
+  .cell small{font-size:11.5px;color:var(--muted);font-weight:600}
 
-  a.cta{
-    display:inline-flex;align-items:center;gap:8px;margin-top:6px;
-    padding:11px 20px;border-radius:12px;font-weight:800;font-size:14.5px;text-decoration:none;
-    background:var(--field);color:#f2f5ea;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.08);
-  }
-  :root[data-theme="dark"] a.cta{color:#0f150b;background:var(--field-2)}
-  a.cta:hover,a.cta:focus-visible{filter:brightness(1.05)}
+  /* footer */
+  .footbar{background:var(--green-deep);color:#e9f0e4;text-align:center;padding:15px 20px;
+    font-size:12.5px;font-weight:600;letter-spacing:.01em}
+  :root[data-theme="dark"] .footbar{background:#0c1108;color:#c9d6c2}
+  .footbar .num{opacity:.85}
 
-  :focus-visible{outline:2px solid var(--brass-2);outline-offset:2px;border-radius:4px}
+  :focus-visible{outline:2px solid var(--red);outline-offset:2px;border-radius:4px}
   @media (prefers-reduced-motion:no-preference){
-    .step,.stat,.cat,.feat{transition:transform .18s ease}
-    .step:hover,.stat:hover,.cat:hover,.feat:hover{transform:translateY(-2px)}
+    .os,.cell,.phone{transition:transform .2s ease}
+    .os:hover,.cell:hover{transform:translateY(-2px)}
   }
 </style>
 </head>
 <body>
-<div class="wrap">
+<div class="sheet">
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="brand">
+      <div class="logo">🎖️</div>
+      <div class="bt">
+        <b>파주 군장병 할인지도</b>
+        <small>군 장병·사회복무요원 할인업소 안내 · 스마트폰·PC 이용 가능</small>
+      </div>
+    </div>
+    <span class="pill"><span class="dot"></span>무료 · 로그인 없음 · 설치 불필요</span>
+  </div>
 
   <!-- HERO -->
-  <header class="hero">
-    <div class="hero-top">
-      <div class="medal">🎖️</div>
-      <div class="eyebrow">PAJU · MILITARY DISCOUNT MAP · 사용 안내</div>
+  <div class="pad">
+    <div class="hero">
+      <div>
+        <h1>내 주변 <span class="hl">할인업소</span>,<br>지도에서 바로 찾습니다</h1>
+        <p class="lead">권역과 업종만 고르면 파주시 군 장병·사회복무요원 할인업소 189개소를 지도에서 바로 찾아요. 전화·길찾기까지 원터치로 연결됩니다.</p>
+        <ul class="blist">
+          <li><span>권역·업종 <b>2단계 필터</b>로 원하는 업소만 추리기</span></li>
+          <li><span>지도 마커·목록에서 <b>할인 내역</b> 한눈에 확인</span></li>
+          <li><span>📞 전화 · 🧭 카카오맵 길찾기 <b>원터치 연결</b></span></li>
+        </ul>
+      </div>
+
+      <div class="phone-wrap">
+        <div class="phone">
+          <div class="screen">
+            <div class="s-head"><b>🎖️ 파주 군장병 할인업소</b><span>🔍</span></div>
+            <div class="s-chips">
+              <span class="s-chip on">문산</span>
+              <span class="s-chip">법원</span>
+              <span class="s-chip">탄현</span>
+              <span class="s-chip on">🍚 음식점</span>
+              <span class="s-chip">☕ 카페</span>
+            </div>
+            <div class="s-list">
+              <div class="s-item"><div class="s-pin" style="background:#d84a3f"><span>🍚</span></div><div class="it"><b>○○식당</b><small>군 장병 10% 할인</small></div><span class="go">›</span></div>
+              <div class="s-item"><div class="s-pin" style="background:#d84a3f"><span>🍚</span></div><div class="it"><b>△△국밥</b><small>1,000원 할인</small></div><span class="go">›</span></div>
+              <div class="s-item"><div class="s-pin" style="background:#8a53bd"><span>💇</span></div><div class="it"><b>□□헤어</b><small>커트 15% 할인</small></div><span class="go">›</span></div>
+            </div>
+          </div>
+        </div>
+        <p class="phone-cap">실제 앱 화면 (권역·업종 필터 적용)</p>
+      </div>
     </div>
-    <h1>파주 군장병 할인업소<br>지도, 이렇게 씁니다</h1>
-    <p class="hero-sub">권역과 업종만 고르면, 내 주변 군 장병·사회복무요원 할인업소를 지도에서 바로 찾을 수 있어요. 앱 설치도 로그인도 필요 없습니다.</p>
-    <span class="hero-tag">🪖 군 장병 &amp; 사회복무요원 전용 혜택</span>
-  </header>
+  </div>
 
-  <!-- STATS -->
-  <section aria-labelledby="s-stats">
-    <div class="sec-head"><h2 id="s-stats">한눈에 보기</h2><span class="rule"></span></div>
-    <div class="stats">
-      <div class="stat"><b class="num">189</b><span>등록 할인업소</span></div>
-      <div class="stat"><b class="num">12</b><span>선택 가능 권역</span></div>
-      <div class="stat"><b class="num">5</b><span>업종 카테고리</span></div>
-      <div class="stat"><b class="num">74</b><span>사회복무요원 적용</span></div>
+  <!-- 01 START -->
+  <div class="section pad">
+    <div class="sec-head"><span class="sec-no num">01</span><h2>지금 시작하기</h2></div>
+    <div class="start">
+      <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges"><path d="M0 0h1v1h-1zM1 0h1v1h-1zM2 0h1v1h-1zM3 0h1v1h-1zM4 0h1v1h-1zM5 0h1v1h-1zM6 0h1v1h-1zM9 0h1v1h-1zM11 0h1v1h-1zM12 0h1v1h-1zM16 0h1v1h-1zM18 0h1v1h-1zM19 0h1v1h-1zM20 0h1v1h-1zM21 0h1v1h-1zM22 0h1v1h-1zM23 0h1v1h-1zM24 0h1v1h-1zM26 0h1v1h-1zM27 0h1v1h-1zM28 0h1v1h-1zM29 0h1v1h-1zM30 0h1v1h-1zM31 0h1v1h-1zM32 0h1v1h-1zM0 1h1v1h-1zM6 1h1v1h-1zM9 1h1v1h-1zM10 1h1v1h-1zM11 1h1v1h-1zM15 1h1v1h-1zM18 1h1v1h-1zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h1v1h-1zM3 2h1v1h-1zM4 2h1v1h-1zM6 2h1v1h-1zM8 2h1v1h-1zM9 2h1v1h-1zM11 2h1v1h-1zM14 2h1v1h-1zM15 2h1v1h-1zM20 2h1v1h-1zM21 2h1v1h-1zM22 2h1v1h-1zM26 2h1v1h-1zM28 2h1v1h-1zM29 2h1v1h-1zM30 2h1v1h-1zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM3 3h1v1h-1zM4 3h1v1h-1zM6 3h1v1h-1zM8 3h1v1h-1zM10 3h1v1h-1zM11 3h1v1h-1zM15 3h1v1h-1zM17 3h1v1h-1zM22 3h1v1h-1zM26 3h1v1h-1zM28 3h1v1h-1zM29 3h1v1h-1zM30 3h1v1h-1zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h1v1h-1zM3 4h1v1h-1zM4 4h1v1h-1zM6 4h1v1h-1zM8 4h1v1h-1zM9 4h1v1h-1zM11 4h1v1h-1zM14 4h1v1h-1zM15 4h1v1h-1zM16 4h1v1h-1zM17 4h1v1h-1zM19 4h1v1h-1zM20 4h1v1h-1zM21 4h1v1h-1zM23 4h1v1h-1zM26 4h1v1h-1zM28 4h1v1h-1zM29 4h1v1h-1zM30 4h1v1h-1zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h1v1h-1zM10 5h1v1h-1zM11 5h1v1h-1zM12 5h1v1h-1zM18 5h1v1h-1zM20 5h1v1h-1zM22 5h1v1h-1zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h1v1h-1zM1 6h1v1h-1zM2 6h1v1h-1zM3 6h1v1h-1zM4 6h1v1h-1zM5 6h1v1h-1zM6 6h1v1h-1zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h1v1h-1zM27 6h1v1h-1zM28 6h1v1h-1zM29 6h1v1h-1zM30 6h1v1h-1zM31 6h1v1h-1zM32 6h1v1h-1zM8 7h1v1h-1zM9 7h1v1h-1zM11 7h1v1h-1zM14 7h1v1h-1zM16 7h1v1h-1zM18 7h1v1h-1zM20 7h1v1h-1zM21 7h1v1h-1zM22 7h1v1h-1zM24 7h1v1h-1zM0 8h1v1h-1zM2 8h1v1h-1zM3 8h1v1h-1zM4 8h1v1h-1zM5 8h1v1h-1zM6 8h1v1h-1zM9 8h1v1h-1zM10 8h1v1h-1zM11 8h1v1h-1zM12 8h1v1h-1zM13 8h1v1h-1zM14 8h1v1h-1zM16 8h1v1h-1zM17 8h1v1h-1zM19 8h1v1h-1zM20 8h1v1h-1zM23 8h1v1h-1zM24 8h1v1h-1zM26 8h1v1h-1zM27 8h1v1h-1zM28 8h1v1h-1zM29 8h1v1h-1zM30 8h1v1h-1zM2 9h1v1h-1zM3 9h1v1h-1zM5 9h1v1h-1zM11 9h1v1h-1zM13 9h1v1h-1zM16 9h1v1h-1zM19 9h1v1h-1zM20 9h1v1h-1zM21 9h1v1h-1zM22 9h1v1h-1zM23 9h1v1h-1zM26 9h1v1h-1zM27 9h1v1h-1zM29 9h1v1h-1zM30 9h1v1h-1zM32 9h1v1h-1zM0 10h1v1h-1zM1 10h1v1h-1zM2 10h1v1h-1zM3 10h1v1h-1zM4 10h1v1h-1zM6 10h1v1h-1zM8 10h1v1h-1zM9 10h1v1h-1zM12 10h1v1h-1zM13 10h1v1h-1zM14 10h1v1h-1zM15 10h1v1h-1zM16 10h1v1h-1zM18 10h1v1h-1zM20 10h1v1h-1zM24 10h1v1h-1zM28 10h1v1h-1zM30 10h1v1h-1zM31 10h1v1h-1zM3 11h1v1h-1zM7 11h1v1h-1zM8 11h1v1h-1zM11 11h1v1h-1zM12 11h1v1h-1zM13 11h1v1h-1zM16 11h1v1h-1zM18 11h1v1h-1zM21 11h1v1h-1zM22 11h1v1h-1zM25 11h1v1h-1zM28 11h1v1h-1zM29 11h1v1h-1zM30 11h1v1h-1zM31 11h1v1h-1zM0 12h1v1h-1zM2 12h1v1h-1zM5 12h1v1h-1zM6 12h1v1h-1zM10 12h1v1h-1zM14 12h1v1h-1zM16 12h1v1h-1zM17 12h1v1h-1zM18 12h1v1h-1zM19 12h1v1h-1zM22 12h1v1h-1zM23 12h1v1h-1zM24 12h1v1h-1zM25 12h1v1h-1zM27 12h1v1h-1zM28 12h1v1h-1zM29 12h1v1h-1zM31 12h1v1h-1zM32 12h1v1h-1zM2 13h1v1h-1zM3 13h1v1h-1zM8 13h1v1h-1zM9 13h1v1h-1zM12 13h1v1h-1zM13 13h1v1h-1zM15 13h1v1h-1zM18 13h1v1h-1zM19 13h1v1h-1zM20 13h1v1h-1zM23 13h1v1h-1zM25 13h1v1h-1zM26 13h1v1h-1zM29 13h1v1h-1zM31 13h1v1h-1zM32 13h1v1h-1zM1 14h1v1h-1zM2 14h1v1h-1zM3 14h1v1h-1zM4 14h1v1h-1zM6 14h1v1h-1zM9 14h1v1h-1zM10 14h1v1h-1zM12 14h1v1h-1zM15 14h1v1h-1zM16 14h1v1h-1zM20 14h1v1h-1zM21 14h1v1h-1zM24 14h1v1h-1zM25 14h1v1h-1zM26 14h1v1h-1zM27 14h1v1h-1zM29 14h1v1h-1zM30 14h1v1h-1zM31 14h1v1h-1zM2 15h1v1h-1zM4 15h1v1h-1zM8 15h1v1h-1zM9 15h1v1h-1zM10 15h1v1h-1zM11 15h1v1h-1zM12 15h1v1h-1zM15 15h1v1h-1zM20 15h1v1h-1zM21 15h1v1h-1zM22 15h1v1h-1zM25 15h1v1h-1zM26 15h1v1h-1zM29 15h1v1h-1zM30 15h1v1h-1zM0 16h1v1h-1zM1 16h1v1h-1zM6 16h1v1h-1zM7 16h1v1h-1zM8 16h1v1h-1zM9 16h1v1h-1zM13 16h1v1h-1zM15 16h1v1h-1zM17 16h1v1h-1zM19 16h1v1h-1zM24 16h1v1h-1zM25 16h1v1h-1zM27 16h1v1h-1zM28 16h1v1h-1zM32 16h1v1h-1zM3 17h1v1h-1zM4 17h1v1h-1zM7 17h1v1h-1zM8 17h1v1h-1zM9 17h1v1h-1zM12 17h1v1h-1zM17 17h1v1h-1zM18 17h1v1h-1zM19 17h1v1h-1zM20 17h1v1h-1zM22 17h1v1h-1zM23 17h1v1h-1zM25 17h1v1h-1zM26 17h1v1h-1zM27 17h1v1h-1zM29 17h1v1h-1zM30 17h1v1h-1zM32 17h1v1h-1zM0 18h1v1h-1zM2 18h1v1h-1zM3 18h1v1h-1zM6 18h1v1h-1zM8 18h1v1h-1zM9 18h1v1h-1zM10 18h1v1h-1zM11 18h1v1h-1zM12 18h1v1h-1zM15 18h1v1h-1zM16 18h1v1h-1zM17 18h1v1h-1zM20 18h1v1h-1zM22 18h1v1h-1zM27 18h1v1h-1zM28 18h1v1h-1zM30 18h1v1h-1zM2 19h1v1h-1zM3 19h1v1h-1zM11 19h1v1h-1zM12 19h1v1h-1zM16 19h1v1h-1zM19 19h1v1h-1zM20 19h1v1h-1zM21 19h1v1h-1zM22 19h1v1h-1zM24 19h1v1h-1zM26 19h1v1h-1zM27 19h1v1h-1zM28 19h1v1h-1zM29 19h1v1h-1zM30 19h1v1h-1zM31 19h1v1h-1zM0 20h1v1h-1zM5 20h1v1h-1zM6 20h1v1h-1zM8 20h1v1h-1zM10 20h1v1h-1zM11 20h1v1h-1zM12 20h1v1h-1zM13 20h1v1h-1zM14 20h1v1h-1zM18 20h1v1h-1zM22 20h1v1h-1zM23 20h1v1h-1zM24 20h1v1h-1zM25 20h1v1h-1zM28 20h1v1h-1zM29 20h1v1h-1zM31 20h1v1h-1zM0 21h1v1h-1zM2 21h1v1h-1zM3 21h1v1h-1zM4 21h1v1h-1zM5 21h1v1h-1zM11 21h1v1h-1zM13 21h1v1h-1zM15 21h1v1h-1zM16 21h1v1h-1zM18 21h1v1h-1zM19 21h1v1h-1zM21 21h1v1h-1zM22 21h1v1h-1zM23 21h1v1h-1zM25 21h1v1h-1zM26 21h1v1h-1zM32 21h1v1h-1zM0 22h1v1h-1zM2 22h1v1h-1zM3 22h1v1h-1zM4 22h1v1h-1zM6 22h1v1h-1zM7 22h1v1h-1zM8 22h1v1h-1zM11 22h1v1h-1zM13 22h1v1h-1zM17 22h1v1h-1zM18 22h1v1h-1zM22 22h1v1h-1zM29 22h1v1h-1zM30 22h1v1h-1zM31 22h1v1h-1zM0 23h1v1h-1zM4 23h1v1h-1zM5 23h1v1h-1zM8 23h1v1h-1zM9 23h1v1h-1zM10 23h1v1h-1zM11 23h1v1h-1zM16 23h1v1h-1zM18 23h1v1h-1zM20 23h1v1h-1zM21 23h1v1h-1zM25 23h1v1h-1zM26 23h1v1h-1zM27 23h1v1h-1zM28 23h1v1h-1zM29 23h1v1h-1zM30 23h1v1h-1zM31 23h1v1h-1zM32 23h1v1h-1zM0 24h1v1h-1zM2 24h1v1h-1zM4 24h1v1h-1zM6 24h1v1h-1zM7 24h1v1h-1zM8 24h1v1h-1zM9 24h1v1h-1zM10 24h1v1h-1zM14 24h1v1h-1zM17 24h1v1h-1zM18 24h1v1h-1zM23 24h1v1h-1zM24 24h1v1h-1zM25 24h1v1h-1zM26 24h1v1h-1zM27 24h1v1h-1zM28 24h1v1h-1zM31 24h1v1h-1zM8 25h1v1h-1zM10 25h1v1h-1zM13 25h1v1h-1zM16 25h1v1h-1zM17 25h1v1h-1zM18 25h1v1h-1zM19 25h1v1h-1zM20 25h1v1h-1zM21 25h1v1h-1zM22 25h1v1h-1zM24 25h1v1h-1zM28 25h1v1h-1zM30 25h1v1h-1zM31 25h1v1h-1zM32 25h1v1h-1zM0 26h1v1h-1zM1 26h1v1h-1zM2 26h1v1h-1zM3 26h1v1h-1zM4 26h1v1h-1zM5 26h1v1h-1zM6 26h1v1h-1zM9 26h1v1h-1zM10 26h1v1h-1zM12 26h1v1h-1zM14 26h1v1h-1zM15 26h1v1h-1zM16 26h1v1h-1zM17 26h1v1h-1zM21 26h1v1h-1zM22 26h1v1h-1zM23 26h1v1h-1zM24 26h1v1h-1zM26 26h1v1h-1zM28 26h1v1h-1zM30 26h1v1h-1zM31 26h1v1h-1zM0 27h1v1h-1zM6 27h1v1h-1zM8 27h1v1h-1zM12 27h1v1h-1zM14 27h1v1h-1zM15 27h1v1h-1zM17 27h1v1h-1zM18 27h1v1h-1zM19 27h1v1h-1zM20 27h1v1h-1zM21 27h1v1h-1zM22 27h1v1h-1zM23 27h1v1h-1zM24 27h1v1h-1zM28 27h1v1h-1zM29 27h1v1h-1zM30 27h1v1h-1zM32 27h1v1h-1zM0 28h1v1h-1zM2 28h1v1h-1zM3 28h1v1h-1zM4 28h1v1h-1zM6 28h1v1h-1zM8 28h1v1h-1zM9 28h1v1h-1zM10 28h1v1h-1zM11 28h1v1h-1zM13 28h1v1h-1zM14 28h1v1h-1zM16 28h1v1h-1zM19 28h1v1h-1zM20 28h1v1h-1zM22 28h1v1h-1zM24 28h1v1h-1zM25 28h1v1h-1zM26 28h1v1h-1zM27 28h1v1h-1zM28 28h1v1h-1zM29 28h1v1h-1zM32 28h1v1h-1zM0 29h1v1h-1zM2 29h1v1h-1zM3 29h1v1h-1zM4 29h1v1h-1zM6 29h1v1h-1zM8 29h1v1h-1zM11 29h1v1h-1zM13 29h1v1h-1zM15 29h1v1h-1zM17 29h1v1h-1zM18 29h1v1h-1zM19 29h1v1h-1zM20 29h1v1h-1zM21 29h1v1h-1zM23 29h1v1h-1zM24 29h1v1h-1zM25 29h1v1h-1zM28 29h1v1h-1zM29 29h1v1h-1zM31 29h1v1h-1zM32 29h1v1h-1zM0 30h1v1h-1zM2 30h1v1h-1zM3 30h1v1h-1zM4 30h1v1h-1zM6 30h1v1h-1zM8 30h1v1h-1zM9 30h1v1h-1zM10 30h1v1h-1zM15 30h1v1h-1zM16 30h1v1h-1zM17 30h1v1h-1zM23 30h1v1h-1zM26 30h1v1h-1zM27 30h1v1h-1zM30 30h1v1h-1zM0 31h1v1h-1zM6 31h1v1h-1zM9 31h1v1h-1zM10 31h1v1h-1zM13 31h1v1h-1zM15 31h1v1h-1zM18 31h1v1h-1zM19 31h1v1h-1zM20 31h1v1h-1zM21 31h1v1h-1zM26 31h1v1h-1zM28 31h1v1h-1zM29 31h1v1h-1zM30 31h1v1h-1zM0 32h1v1h-1zM1 32h1v1h-1zM2 32h1v1h-1zM3 32h1v1h-1zM4 32h1v1h-1zM5 32h1v1h-1zM6 32h1v1h-1zM8 32h1v1h-1zM9 32h1v1h-1zM10 32h1v1h-1zM12 32h1v1h-1zM14 32h1v1h-1zM15 32h1v1h-1zM17 32h1v1h-1zM19 32h1v1h-1zM24 32h1v1h-1zM25 32h1v1h-1zM27 32h1v1h-1zM31 32h1v1h-1z" fill="currentColor"/></svg></div>
+      <div>
+        <div class="eyebrow">SCAN TO START</div>
+        <h3>QR코드를 스캔해 바로 접속하세요</h3>
+        <p>카메라나 QR 앱으로 코드를 비추면 별도 설치 없이 브라우저에서 바로 열립니다. 로그인이 필요 없어요.</p>
+        <span class="urlchip"><span class="k">URL</span>smile7962.github.io/paju-military-discount-map</span>
+      </div>
     </div>
-  </section>
+  </div>
 
-  <!-- STEPS -->
-  <section aria-labelledby="s-how">
-    <div class="sec-head"><h2 id="s-how">사용법 4단계</h2><span class="rule"></span></div>
-    <div class="steps">
-
-      <article class="step">
-        <div class="step-n num">01</div>
-        <h3>권역 고르기 <span class="chiplet">1단계 필터</span></h3>
-        <p>상단 첫 줄 칩에서 내 지역을 선택합니다. 금촌·운정·문산·법원·탄현·적성 등 <b>12개 권역</b> 중 하나를 누르면 그 지역 업소만 남습니다.</p>
-      </article>
-
-      <article class="step">
-        <div class="step-n num">02</div>
-        <h3>업종 고르기 <span class="chiplet">2단계 필터</span></h3>
-        <p>둘째 줄 칩에서 <b>음식점·카페·미용·목욕·숙박</b> 중 원하는 업종을 선택해 결과를 좁힙니다. 권역과 업종은 함께 적용돼요.</p>
-      </article>
-
-      <article class="step">
-        <div class="step-n num">03</div>
-        <h3>지도·목록에서 찾기</h3>
-        <p>지도의 <b>마커</b>나 하단 <b>업소 목록</b>에서 확인합니다. 마커가 몰린 곳은 숫자로 묶여 표시되고(클러스터), 탭하면 펼쳐집니다. 모바일은 아래에서 목록이 올라오는 <b>바텀시트</b>예요.</p>
-      </article>
-
-      <article class="step">
-        <div class="step-n num">04</div>
-        <h3>상세 확인 &amp; 바로 이용</h3>
-        <p>업소를 누르면 <b>할인 내역</b>이 뜹니다. <kbd>📞 전화</kbd> 로 바로 걸고, <kbd>🧭 길찾기</kbd> 로 카카오맵 안내를 열어 방문하세요.</p>
-      </article>
-
+  <!-- 02 INSTALL -->
+  <div class="section pad">
+    <div class="sec-head"><span class="sec-no num">02</span><h2>스마트폰 홈 화면에 설치하기</h2></div>
+    <div class="install">
+      <div class="os">
+        <div class="os-head"><span class="os-badge ios">iOS</span><span><b>iPhone · Safari</b><small>iOS 사파리 브라우저 기준</small></span></div>
+        <ol>
+          <li><span>Safari로 위 링크(또는 QR코드)로 <b>접속</b>합니다</span></li>
+          <li><span>하단 <b>공유 버튼</b>(사각형에 위쪽 화살표)을 누릅니다</span></li>
+          <li><span>목록에서 <b>‘홈 화면에 추가’</b>를 선택 후 추가합니다</span></li>
+        </ol>
+      </div>
+      <div class="os">
+        <div class="os-head"><span class="os-badge aos">AOS</span><span><b>Android · Chrome</b><small>안드로이드 크롬 브라우저 기준</small></span></div>
+        <ol>
+          <li><span>Chrome으로 위 링크(또는 QR코드)로 <b>접속</b>합니다</span></li>
+          <li><span>우측 상단 <b>메뉴(⋮)</b> 버튼을 누릅니다</span></li>
+          <li><span><b>‘홈 화면에 추가’</b> 또는 ‘앱 설치’를 선택합니다</span></li>
+        </ol>
+      </div>
     </div>
-  </section>
+  </div>
 
-  <!-- CATEGORY LEGEND -->
-  <section aria-labelledby="s-cat">
-    <div class="sec-head"><h2 id="s-cat">업종 &amp; 마커 색</h2><span class="rule"></span></div>
-    <div class="cats">
-      <div class="cat"><div class="pin" style="background:var(--c-food)"><span>🍚</span></div><div class="cat-txt"><b>음식점</b><small class="num">141개소</small></div></div>
-      <div class="cat"><div class="pin" style="background:var(--c-beauty)"><span>💇</span></div><div class="cat-txt"><b>미용</b><small class="num">24개소</small></div></div>
-      <div class="cat"><div class="pin" style="background:var(--c-stay)"><span>🛏️</span></div><div class="cat-txt"><b>숙박</b><small class="num">15개소</small></div></div>
-      <div class="cat"><div class="pin" style="background:var(--c-cafe)"><span>☕</span></div><div class="cat-txt"><b>카페·간식</b><small class="num">5개소</small></div></div>
-      <div class="cat"><div class="pin" style="background:var(--c-bath)"><span>🛁</span></div><div class="cat-txt"><b>목욕</b><small class="num">5개소</small></div></div>
-      <div class="cat"><div class="pin" style="background:var(--field)"><span>🎖️</span></div><div class="cat-txt"><b>전체 보기</b><small>필터 해제</small></div></div>
+  <!-- STRIP -->
+  <div class="pad" style="padding-top:0">
+    <div class="strip"><span class="si">🎖️</span><span>설치하면 홈 화면에 <b>이 아이콘</b>이 생기고, 이후에는 앱처럼 아이콘을 눌러 바로 실행할 수 있습니다.</span></div>
+  </div>
+
+  <!-- BOTTOM FEATURES -->
+  <div class="pad" style="padding-top:0">
+    <div class="grid4">
+      <div class="cell"><span class="ci">🗺️</span><b>지도 기반 업소 탐색</b><small>마커·목록으로 위치 확인</small></div>
+      <div class="cell"><span class="ci">🔎</span><b>12개 권역 · 5개 업종</b><small>2단계 필터로 좁히기</small></div>
+      <div class="cell"><span class="ci">🪖</span><b>사회복무요원 74개소</b><small>적용 업소만 골라보기</small></div>
+      <div class="cell"><span class="ci">🧭</span><b>카카오맵 길찾기 연결</b><small>전화·길찾기 원터치</small></div>
     </div>
-  </section>
-
-  <!-- REGION DISTRIBUTION -->
-  <section aria-labelledby="s-reg">
-    <div class="sec-head"><h2 id="s-reg">권역별 업소 분포</h2><span class="rule"></span></div>
-    <div class="regions" id="regions"></div>
-  </section>
-
-  <!-- EXTRA FEATURES -->
-  <section aria-labelledby="s-feat">
-    <div class="sec-head"><h2 id="s-feat">알아두면 편한 기능</h2><span class="rule"></span></div>
-    <div class="feats">
-      <div class="feat"><span class="ico">🔍</span><div><b>업소명 검색</b><p>헤더 돋보기를 눌러 상호로 바로 검색.</p></div></div>
-      <div class="feat"><span class="ico">📍</span><div><b>현재 위치</b><p>내 위치로 지도를 이동해 가까운 곳부터.</p></div></div>
-      <div class="feat"><span class="ico">🪖</span><div><b>사회복무요원 필터</b><p>적용되는 74개소만 골라서 볼 수 있어요.</p></div></div>
-      <div class="feat"><span class="ico">🔗</span><div><b>필터 공유</b><p>고른 상태가 주소에 담겨요 <code>#r=문산&amp;c=food</code></p></div></div>
-    </div>
-  </section>
+  </div>
 
   <!-- FOOTER -->
-  <footer>
-    <span class="dogtag">서버 없이 동작하는 정적 웹앱 · 브이월드 지도</span><br>
-    <a class="cta" href="https://smile7962.github.io/paju-military-discount-map/">🗺️ 지도 열어보기 →</a>
-    <p style="margin:16px 0 0">데이터 출처 · 파주시 「2026년도 군 장병 할인업소 현황」 (2026.3.1. 기준)</p>
-  </footer>
+  <div class="footbar">파주 군장병 할인지도 · 파주시 「2026년도 군 장병 할인업소 현황」 <span class="num">(2026.3.1. 기준)</span> · 무료 서비스</div>
 
 </div>
-
-<script>
-  // 권역 분포 (data/stores.json 기준)
-  var REGIONS=[
-    ["문산",38],["법원",37],["탄현",26],["적성",23],["금촌",21],["운정",11],
-    ["파주",10],["광탄",9],["파평",7],["교하",4],["조리",2],["월롱",1]
-  ];
-  var max=REGIONS[0][1];
-  var html=REGIONS.map(function(r){
-    var pct=Math.round(r[1]/max*100);
-    return '<div class="bar-row">'+
-      '<span class="rname">'+r[0]+'</span>'+
-      '<div class="bar-track"><div class="bar-fill" style="width:'+pct+'%"></div></div>'+
-      '<span class="bar-val num">'+r[1]+'</span>'+
-    '</div>';
-  }).join('');
-  html+='<p class="regions-note">권역 칩을 누르면 해당 지역 업소만 지도·목록에 남습니다. 합계 189개소.</p>';
-  document.getElementById('regions').innerHTML=html;
-</script>
 </body>
 </html>
